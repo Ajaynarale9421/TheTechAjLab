@@ -1,3 +1,10 @@
+#about-section {
+    background-image: url('images/about-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Ensures text is readable */
+    padding: 50px;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;

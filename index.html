@@ -6,24 +6,107 @@
     <title>TechAj Gaming Lab</title>
     <style>
         body {
-            text-align: center;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             background-color: #121212;
             color: #f0f0f0;
         }
+
+        header {
+            text-align: center;
+            background-color: #1e1e1e;
+            padding: 20px 0;
+        }
+
         .banner {
             width: 100%;
+            max-width: 100%;
         }
+
         .logo {
             width: 150px;
-            margin-top: 20px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        h1 {
+            margin: 20px 0;
+        }
+
+        nav {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: #aaa;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #00bcd4;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <img src="PATH_TO_BANNER_IMAGE" alt="TechAj Gaming Lab Banner" class="banner">
-    <img src="PATH_TO_LOGO_IMAGE" alt="TechAj Gaming Lab Logo" class="logo">
-    <h1>Welcome to TechAj Gaming Lab</h1>
-    <p>Your hub for gaming and robotics content. Stay tuned for amazing updates!</p>
-</body>
-</html>
+    <!-- Header Section -->
+    <header>
+        <img src="PATH_TO_BANNER_IMAGE" alt="TechAj Gaming Lab Banner" class="banner">
+        <img src="PATH_TO_LOGO_IMAGE" alt="TechAj Gaming Lab Logo" class="logo">
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#content">Content</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>Welcome to TechAj Gaming Lab</h1>
+        <p>Your ultimate destination for gaming adventures and robotics innovations! Explore, learn, and enjoy as we dive into the worlds of cutting-edge technology and immersive gameplay.</p>
+    </section>
+
+    <!-- Content Section -->
+    <section id="content">
+        <h2>What You'll Find Here</h2>
+        <p>🎮 Gaming walkthroughs, reviews, and tips.<br>🤖 Robotics tutorials, projects, and innovations.<br>💡 A community for tech enthusiasts and gamers alike.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Connect With Us</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 TechAj Gaming Lab. All rights reserved.</p>
+    </footer>
+</b
